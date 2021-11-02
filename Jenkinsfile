@@ -1,6 +1,6 @@
 def target_node='SlaveNode'
 pipeline { 
-    #agent {label "${target_node}"}
+    //agent {label "${target_node}"}
      agent any
         stages {
             stage('Build Stage') {		
